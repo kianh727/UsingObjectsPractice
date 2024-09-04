@@ -49,3 +49,18 @@ Write a class to represent a State object.  Every State needs to have a name, a 
     > California - (CA) admitted in 1847, 173 years ago.
 
 
+## NameGame Lyrics Generator
+
+Your task is to create a program that generates the lyrics of the Name Game when given a name. 
+Create a class with a main method that asks the user for their name, then based on that name generates the appropriate lyrics to follow the rules outlined in the song.  The rules for generating the lyrics are outlined in this video: [Shirley Ellis - The Name Game](https://youtu.be/5MJLi5_dyn0)
+
+Be sure to use appropriate style and comment your code well so that other users can understand your intentions.
+
+Test your program with inputs given in the song to ensure that your program works properly.
+
+User Name | Lyrics
+----- | -----
+Shelly | Shelly Shelly bo Bhelly bannana fana fo fhelly fee fi mo Mhelly, Shelly
+Lincoln | Lincoln Lincoln bo Bincoln bannana fana fo fincoln fee fi mo Mincoln, Lincoln
+
+
