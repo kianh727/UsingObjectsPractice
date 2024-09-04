@@ -29,3 +29,23 @@ Print all 3 Circle objects again to confirm they are the same.
 Finally add the code: `System.out.println(c1 == c2);` and `System.out.println(c1 == c3);`
 
 Discuss the results with your partner.
+
+
+## State Class
+
+Write a class to represent a State object.  Every State needs to have a name, a year established and a two letter abbbreviation.
+
+* Create appropriate fields or instance data for the State class.
+* Create appropriate constructors for the State class.
+  * Discuss why you can not create the following two construtors:
+    *  `public State(String name, int year)` 
+    *  `public State(String abbrev, int year)`
+* Create appropriate getters and setters for the State class.
+* Create a method that takes an integer parameter (`speciedYear`) that calculates and returns the age (in years) of the state in the `specifiedYear`. 
+
+* Create a toString() method that returns a formatted String similar to:
+    > `name` - (`abbreviation`) admitted in `yearEstablished`, `numberOfYears` ago.
+
+    > California - (CA) admitted in 1847, 173 years ago.
+
+
