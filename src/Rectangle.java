@@ -9,36 +9,40 @@ public class Rectangle {
 
     /**
      * 
-     * @param w - the width of the Rectangle
-     * @param h - the height of the Rectangle
+    //  * - the width of the Rectangle
+    //  *  - the height of the Rectangle
      */
-    public Rectangle(double w, double h) {
-        this.height = h;
-        this.width = w;
+    public Rectangle(double width, double height) {
+        this.height = height;
+        this.width = width;
     }
 
     public double getHeight() {
         return height;
     }
 
-    public void setHeight(double h) {
-        this.height = h;
-    }
-
-    public double getWidth() {
+     public double getWidth() {
         return width;
     }
 
-    public void setWidth(double w) {
-        this.width = w;
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+
+    public void setWidth(double width) {
+        this.width = width;
     }
 
     /**
      * 
-     * @return - the area of the rectangle in square units
+     *  - the area of the rectangle in square units
      */
     public double calcArea(){
-        return this.height * this.width;
+        return height * width;
+    }
+     public double calcPerimeter(){
+        return 2 * (height + width);
     }
 
     @Override
